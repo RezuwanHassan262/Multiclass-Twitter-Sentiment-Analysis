@@ -78,17 +78,17 @@ Model performance on test data.
 
 | Label               | Precision | Recall | F1-score | Support |
 |---------------------|-----------|--------|----------|---------|
-| Extremely Negative  | 0.77      | 0.87   | 0.82     | 548     |
-| Extremely Positive  | 0.78      | 0.88   | 0.83     | 663     |
-| Negative            | 0.77      | 0.76   | 0.76     | 991     |
-| Neutral             | 0.91      | 0.85   | 0.88     | 772     |
-| Positive            | 0.80      | 0.75   | 0.77     | 1142    |
+| Extremely Negative  | ----      | ----   | ----     | ----    |
+| Extremely Positive  | ----      | ----   | ----     | ----    |
+| Negative            | ----      | ----   | ----     | ----    |
+| Neutral             | ----      | ----   | ----     | ----    |
+| Positive            | ----      | ----   | ----     | ----    |
 
 | Metric        | Value |
 |---------------|-------|
-| Accuracy      | 0.81  |
-| Macro Avg     | 0.81  |
-| Weighted Avg  | 0.81  |
+| Accuracy      | ----  |
+| Macro Avg     | ----  |
+| Weighted Avg  | ----  |
 
 
 
@@ -105,4 +105,7 @@ Model performance on test data.
 
 ## Explainable AI (Local Interpretable Model-agnostic Explanations)
 
+I aimed to enhance the interpretability of the model's predictions by integrating eXplainable AI (XAI) techniques. Specifically, I focused on implementing LIME (Local Interpretable Model-Agnostic Explanations). LIME works by approximating the complex model's behavior locally around a specific instance, creating a simpler, interpretable model to explain the prediction.
+
+By incorporating LIME, I sought to understand the factors influencing the model's decisions. This would improve the model's transparency and help identify potential biases or errors.
 
