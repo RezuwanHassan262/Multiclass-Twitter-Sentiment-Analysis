@@ -37,3 +37,43 @@ Other pre-processing tasks include,
 - Word Embeddings: GloVe embeddings ([glove.6B.100d](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)) are used to map words to vectors.
  
 
+## Model Architecture
+
+The model is consisting of multiple layers including:
+
+- Embedding Layer: Leveraged GloVe word embeddings to give meaning to words in the model.
+    Bidirectional LSTM Layers: Employs a bidirectional approach to capture long-range dependencies in both forward and backward directions.
+    Dropout and Batch Normalization: Regularization techniques to reduce model complexity and improve generalization.
+    Fully Connected Layers: To integrate the extracted insights into a unified representation for decision-making.
+
+%%%%%%%%%%%%%%%%%%%% image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+Results
+Model Performance
+
+The final performance of the trained model on the test dataset:
+
+    Training Accuracy: Approximately 85% - 86%
+    Validation Accuracy: Approximately 79.35% - 81.60%
+    Test Accuracy: Approximately 80.25% - 80.79%
+
+Evaluation Metrics
+
+Confusion Matrix: A confusion matrix is used to visualize the true and predicted labels of the model across all sports categories.
+
+download
+
+Classification Report: A classification report is used to analyze the precision, recall and f1-score of the model across all sports categories.
+
+
+                    precision    recall  f1-score   support
+
+Extremely Negative       0.77      0.87      0.82       548
+Extremely Positive       0.78      0.88      0.83       663
+          Negative       0.77      0.76      0.76       991
+           Neutral       0.91      0.85      0.88       772
+          Positive       0.80      0.75      0.77      1142
+
+          accuracy                           0.81      4116
+         macro avg       0.81      0.82      0.81      4116
+      weighted avg       0.81      0.81      0.81      4116
