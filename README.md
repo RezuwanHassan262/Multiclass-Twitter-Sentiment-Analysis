@@ -1,5 +1,3 @@
 # Multiclass-Twitter-Sentiment-Analysis
-A sequential Keras model, incorporating GloVe word embeddings and a Bidirectional LSTM layer, is implemented to classify COVID-19 tweets into five sentiment categories.
 
-Multiclass Twitter Sentiment Analysis using NLP tools and Deep Learning
-This project implements a deep learning model to classify the sentiments of tweets related to the COVID-19 pandemic into 5 categories. The model is built, drawing inspiration from architectures like Bidirectional LSTM and includes word embeddings from GloVe. The aim is to create a robust sentiment analysis model that accurately classifies sentiments across various tweets.
+This project leverages a sequential Keras model to categorize tweets related to COVID-19 into five distinct sentiment classes. The model employs GloVe word embeddings and a Bidirectional LSTM architecture for accurate sentiment analysis. The goals is to develop a strong sentiment analysis model to precisely categorize the sentiment of diverse tweets.
