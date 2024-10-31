@@ -72,15 +72,37 @@ Model performance on test data.
 
 - Classification Report: A classification report analyzes the model's precision, recall, and F1-score for each sentiment category.
 
+## Model Performance Metrics
 
-                    precision    recall  f1-score   support
+![Model Performance Metrics]
 
-Extremely Negative       0.77      0.87      0.82       548
-Extremely Positive       0.78      0.88      0.83       663
-          Negative       0.77      0.76      0.76       991
-           Neutral       0.91      0.85      0.88       772
-          Positive       0.80      0.75      0.77      1142
+| Label               | Precision | Recall | F1-score | Support |
+|---------------------|-----------|--------|----------|---------|
+| Extremely Negative  | 0.77      | 0.87   | 0.82     | 548     |
+| Extremely Positive  | 0.78      | 0.88   | 0.83     | 663     |
+| Negative            | 0.77      | 0.76   | 0.76     | 991     |
+| Neutral             | 0.91      | 0.85   | 0.88     | 772     |
+| Positive            | 0.80      | 0.75   | 0.77     | 1142    |
 
-          accuracy                           0.81      4116
-         macro avg       0.81      0.82      0.81      4116
-      weighted avg       0.81      0.81      0.81      4116
+| Metric        | Value |
+|---------------|-------|
+| Accuracy      | 0.81  |
+| Macro Avg     | 0.81  |
+| Weighted Avg  | 0.81  |
+
+
+
+
+
+## Improvements
+
+### Future work scopes:
+
+    - Implementing transformer-based models like BERT to enhance sentiment classification precision.
+    - Employing data augmentation methods, including back-translation and synonym replacement, to expand tweet datasets.
+    - Conducting hyperparameter optimization to enhance model performance.
+
+
+## Explainable AI (Local Interpretable Model-agnostic Explanations)
+
+
