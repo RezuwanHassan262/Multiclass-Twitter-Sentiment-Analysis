@@ -107,7 +107,7 @@ Model performance on test data.
     - Conducting hyperparameter optimization to enhance model performance.
 
 
-## Explainable AI (Local Interpretable Model-agnostic Explanations)
+## Explainable AI Integration (LIME: Local Interpretable Model-agnostic Explanations)
 
 I aimed to enhance the interpretability of the model's predictions by integrating eXplainable AI (XAI) techniques. Specifically, I focused on implementing LIME (Local Interpretable Model-Agnostic Explanations). LIME works by approximating the complex model's behavior locally around a specific instance, creating a simpler, interpretable model to explain the prediction.
 
