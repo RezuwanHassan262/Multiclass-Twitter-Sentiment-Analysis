@@ -48,22 +48,29 @@ The model is consisting of multiple layers including:
 
 %%%%%%%%%%%%%%%%%%%% image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-Results
-Model Performance
+## Results
 
-The final performance of the trained model on the test dataset:
+After a lot of trials and errors with the parameters and model architecture, this model was finalized.
+
+### Model Performance
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Curves %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Model performance on test data.
 
     Training Accuracy: Approximately 85% - 86%
     Validation Accuracy: Approximately 79.35% - 81.60%
     Test Accuracy: Approximately 80.25% - 80.79%
 
-Evaluation Metrics
+### Evaluation Metrics
 
-Confusion Matrix: A confusion matrix is used to visualize the true and predicted labels of the model across all sports categories.
+- Confusion Matrix: A confusion matrix is employed to assess the model's performance by visualizing the distribution of true positive, true negative, false positive, and false negative predictions for each sentiment category.
 
-download
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CF %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Classification Report: A classification report is used to analyze the precision, recall and f1-score of the model across all sports categories.
+- Classification Report: A classification report analyzes the model's precision, recall, and F1-score for each sentiment category.
 
 
                     precision    recall  f1-score   support
