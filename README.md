@@ -46,7 +46,10 @@ The model is consisting of multiple layers including:
     Dropout and Batch Normalization: Regularization techniques to reduce model complexity and improve generalization.
     Fully Connected Layers: To integrate the extracted insights into a unified representation for decision-making.
 
-%%%%%%%%%%%%%%%%%%%% image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A diagram of developed the model is given below
+
+![Developed TF model](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/model_arch.png) 
+
  
 ## Results
 
