@@ -48,7 +48,9 @@ The model is consisting of multiple layers including:
 
 A diagram of developed the model is given below
 
-![Developed TF model](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/figs/model_arch.png) 
+
+![Developed TF model](https://github.com/user-attachments/assets/a33ddc8e-369e-4e3e-9693-2765f738f89b)
+
 
 (https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/model_arch.png?token=GHSAT0AAAAAACZXN5HUNXGGZZ4ZHACPIDBOZZDO6CA) 
 
