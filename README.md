@@ -61,7 +61,7 @@ After a lot of trials and errors with the parameters and model architecture, thi
 
 We can observe the model's performance on training and validation data, the learning process and it's generalization ability. 
 
-![Model train-Loss Curves](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/train_loss_curves.PNG?token=GHSAT0AAAAAACZXN5HVIU4OU4IUQYQJ6EIMZZDO7RQ) 
+![Model train-Loss Curves](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/model_arch.png?token=GHSAT0AAAAAACZXN5HVW7ZIZARZP5WKDN7MZZIMKUQ) 
 
 
 Model performance on test data.
