@@ -34,7 +34,7 @@ Other pre-processing tasks include,
 
 - Tokenization is applied to convert tweets into sequences of words.
 - Padding ensures all sequences are of equal length.
-- Word Embeddings: GloVe embeddings ([glove.6B.100d](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)) are used to map words to vectors.
+- Word Embeddings: GloVe embeddings ([glove.6B.100d](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt) are used to map words to vectors.
  
 
 ## Model Architecture
@@ -49,7 +49,7 @@ The model is consisting of multiple layers including:
 A diagram of developed the model is given below
 
 
-![Developed TF model](figs/model_arch.png) 
+![Developed TF model](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/model_arch.png) 
 
 
 
