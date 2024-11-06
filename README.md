@@ -11,11 +11,11 @@ The model was trained on a dataset from the ["Pandemic Tweet Challenge"](https:/
 
 | Serial        | UserName         | ScreenName       | Location         | TweetAt          | OriginalTweet                                           | Sentiment    	   |
 | ------------- |:----------------:|:----------------:|:----------------:|:----------------:|:-------------------------------------------------------:|:----------------:|	
-| 0             |3799	             |48751             |London            |13-03-2020	      |@MeNyrbie @Phil_Gahan @Chrisitv https://t.co/i...        |Neutral           |
+| 0             |3799	             |48751             |London            |13-03-2020	       |@MeNyrbie @Phil_Gahan @Chrisitv https://t.co/i...        |Neutral           |
 | 1             |3800	             |48752             |UK                |12/3/2020	        |advice Talk to your neighbours family to excha...        |Positive          |
-| 2             |3801	             |48753             |Vagabonds         |13-03-2020	      |Coronavirus Australia: Woolworths to give elde...        |Positive          |
-| 3             |3802	             |48754             |NaN               |14-03-2020	      |My food stock is not the only one which is emp...  	    |Positive          |
-| 4	            |3803	             |48755             |NaN  	           |13-03-2020	      |Me, ready to go at supermarket during the #COV...	      |Extremely Negative|
+| 2             |3801	             |48753             |Vagabonds         |13-03-2020	       |Coronavirus Australia: Woolworths to give elde...        |Positive          |
+| 3             |3802	             |48754             |NaN               |14-03-2020	       |My food stock is not the only one which is emp...  	     |Positive          |
+| 4	            |3803	             |48755             |NaN  	           |13-03-2020	        |Me, ready to go at supermarket during the #COV...	       |Extremely Negative|
 
 
 ### The dataset is stored in a CSV format with two important columns:
