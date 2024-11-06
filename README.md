@@ -21,12 +21,12 @@ The model was trained on a dataset from the ["Pandemic Tweet Challenge"](https:/
 ### The dataset is stored in a CSV format with two important columns:
 - OriginalTweet: The original text of the tweet. (Feature Column)
 - Sentiment: The sentiment class label associated with each tweet. (Target Column)
-- Other columns are irrelevant, hence are dropped.
+- Other columns are irrelevant, and hence are dropped.
 
 ## Preprocessing
 
-Tweets are cleaned to eliminate irrelevant information, reduce noise and nuances. Such as,
-- Text is lowercased.
+Tweets are cleaned to eliminate irrelevant information and reduce noise and nuances. Such as,
+- Text is lowercase.
 - Contractions are expanded.
 - URLs, mentions, and special characters are removed.
 
@@ -60,7 +60,7 @@ After a lot of trials and errors with the parameters and model architecture, thi
 
 ### Model Performance
 
-We can observe the model's performance on training and validation data, the learning process and it's generalization ability. 
+We can observe the model's performance on training and validation data, the learning process and its generalization ability. 
 
 ![Model train-Loss Curves](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/train_loss_curves.PNG) 
 
@@ -85,17 +85,16 @@ Model performance on test data.
 
 | Label               | Precision | Recall | F1-score | Support |
 |---------------------|-----------|--------|----------|---------|
-| Extremely Negative  | ----      | ----   | ----     | ----    |
-| Extremely Positive  | ----      | ----   | ----     | ----    |
-| Negative            | ----      | ----   | ----     | ----    |
-| Neutral             | ----      | ----   | ----     | ----    |
-| Positive            | ----      | ----   | ----     | ----    |
+| Extremely Negative  | 0.77      | ----   | ----     | ----    |
+| Extremely Positive  | 0.78      | ----   | ----     | ----    |
+| Negative            | 0.77      | ----   | ----     | ----    |
+| Neutral             | 0.91      | ----   | ----     | ----    |
+| Positive            | 0.80      | ----   | ----     | ----    |
 
-| Metric        | Value |
-|---------------|-------|
-| Accuracy      | ----  |
-| Macro Avg     | ----  |
-| Weighted Avg  | ----  |
+
+| Accuracy           | ----      | ----   | 0.81     | 4116    |
+| Macro Avg.         | 0.81      | 0.82   | 0.81     | 4116    |
+| Weighted Avg.      | 0.81      | 0.81   | 0.81     | 4116    |
 
 
 
