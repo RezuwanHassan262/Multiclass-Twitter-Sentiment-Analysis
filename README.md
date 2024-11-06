@@ -75,7 +75,7 @@ Model performance on test data.
 
 - Confusion Matrix: A confusion matrix is employed to assess the model's performance by visualizing the distribution of true positive, true negative, false positive, and false negative predictions for each sentiment category.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CF %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+![Confusion Matrix](https://raw.githubusercontent.com/RezuwanHassan262/Multiclass-Twitter-Sentiment-Analysis/refs/heads/main/figs/cf.png) 
 
 - Classification Report: A classification report analyzes the model's precision, recall, and F1-score for each sentiment category.
 
