@@ -34,7 +34,7 @@ Other pre-processing tasks include,
 
 - Tokenization is applied to convert tweets into sequences of words.
 - Padding ensures all sequences are of equal length.
-- Word Embeddings: GloVe embeddings ([glove.6B.100d](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt) are used to map words to vectors.
+- Word Embeddings: GloVe embeddings ([glove.6B.100d](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)) are used to map words to vectors.
  
 
 ## Model Architecture
