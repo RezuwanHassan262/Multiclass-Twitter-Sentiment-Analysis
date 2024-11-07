@@ -81,7 +81,6 @@ Model performance on test data.
 
 ## Model Performance Metrics
 
-![Model Performance Metrics]
 
 | Label               | Precision | Recall | F1-score | Support |
 |---------------------|-----------|--------|----------|---------|
