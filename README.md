@@ -92,9 +92,9 @@ Model performance on test data.
 | Positive            | 0.80      | ----   | ----     | ----    |
 
 
-| Accuracy           | ----      | ----   | 0.81     | 4116    |
-| Macro Avg.         | 0.81      | 0.82   | 0.81     | 4116    |
-| Weighted Avg.      | 0.81      | 0.81   | 0.81     | 4116    |
+    | Accuracy           | ----      | ----   | 0.81     | 4116    |
+    | Macro Avg.         | 0.81      | 0.82   | 0.81     | 4116    |
+    | Weighted Avg.      | 0.81      | 0.81   | 0.81     | 4116    |
 
 
 
@@ -105,13 +105,15 @@ Model performance on test data.
 ### Future work scopes:
 
     - Implementing transformer-based models like BERT to enhance sentiment classification precision.
-    - Employing data augmentation methods, including back-translation and synonym replacement, to expand tweet datasets.
-    - Conducting hyperparameter optimization to enhance model performance.
+    - Data augmentation methods are employed to expand tweet datasets, including back-translation and synonym replacement.
+    - Hyperparameter optimization is conducted to enhance model performance.
 
 
+<!-- 
 ## Explainable AI Integration (LIME: Local Interpretable Model-agnostic Explanations)
 
 I aimed to enhance the interpretability of the model's predictions by integrating eXplainable AI (XAI) techniques. Specifically, I focused on implementing LIME (Local Interpretable Model-Agnostic Explanations). LIME works by approximating the complex model's behavior locally around a specific instance, creating a simpler, interpretable model to explain the prediction.
 
-By incorporating LIME, I sought to understand the factors influencing the model's decisions. This would improve the model's transparency and help identify potential biases or errors.
+By incorporating LIME, I sought to understand the factors influencing the model's decisions. This would improve the model's transparency and help identify potential biases or errors.****
+-->
 
