@@ -85,32 +85,15 @@ Model performance on test data.
 | Label               | Precision | Recall | F1-score | Support |
 |---------------------|-----------|--------|----------|---------|
 | Extremely Negative  | 0.77      | 0.87   | 0.82     | 548     |
-| Extremely Positive  | 0.78      | ----   | ----     | ----    |
-| Negative            | 0.77      | ----   | ----     | ----    |
-| Neutral             | 0.91      | ----   | ----     | ----    |
-| Positive            | 0.80      | ----   | ----     | ----    |
+| Extremely Positive  | 0.78      | 0.88   |  0.83    | 663     |
+| Negative            | 0.77      | 0.76   | 0.76     | 991     |
+| Neutral             | 0.91      | 0.85   | 0.88     | 772     |
+| Positive            | 0.80      | 0.75   | 0.77     | 1142    |
 
 
     | Accuracy           | ----      | ----   | 0.81     | 4116    |
     | Macro Avg.         | 0.81      | 0.82   | 0.81     | 4116    |
     | Weighted Avg.      | 0.81      | 0.81   | 0.81     | 4116    |
-
-
-
-                    precision    recall  f1-score   support
-
-Extremely Negative       0.77      0.87      0.82       548
-Extremely Positive       0.78      0.88      0.83       663
-          Negative       0.77      0.76      0.76       991
-           Neutral       0.91      0.85      0.88       772
-          Positive       0.80      0.75      0.77      1142
-
-          accuracy                           0.81      4116
-         macro avg       0.81      0.82      0.81      4116
-      weighted avg       0.81      0.81      0.81      4116
-
-
-
 
 
 
