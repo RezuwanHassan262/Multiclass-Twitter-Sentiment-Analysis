@@ -68,8 +68,8 @@ We can observe the model's performance on training and validation data, the lear
 Model performance on test data.
 
     Training Accuracy: Approximately 85% - 86%
-    Validation Accuracy: Approximately 79.35% - 81.60%
-    Test Accuracy: Approximately 80.25% - 80.79%
+    Validation Accuracy: Approximately 79% - 81%
+    Test Accuracy: Approximately 79.96% - 80.79%
 
 ### Evaluation Metrics
 
